@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+    padding: 12px;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    border: 1px solid palevioletred;
+    box-shadow: 1px 4px 4px 0px;
+}
+form {
+    width: 100%;
+}
+form label {
+    font-weight: 600 !important;
+    opacity: 0.8;
+}
+form label:hover {
+    opacity: 1;
+}
+.get-in-touch {
+    color: palevioletred;
+    font-weight: 600;
+    text-shadow: 0.8px 0.5px 0px black;
+}
+.btn {
+    background-color: rgb(223, 131, 162) !important;
+    color: white !important;
+}
+.btn:hover {
+    color: black !important;
+}
+
+@media (max-width: 859px) {
+    main {
+        width: 100%;
+    }
+}
